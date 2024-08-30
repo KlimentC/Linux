@@ -1,0 +1,117 @@
+touch jerry
+ls -l
+touch kramer
+touch george
+cp jerry clark
+cp jerry klimentFile
+ls -ltr
+vi homer
+touch bart lisa marge
+mkdir seinfeld
+mkdir superman
+mkdir simpson madMax
+touch someFile | cd /etc/ 
+#Above failed not enough rights
+mkdir config
+touch a.config b.config c.config
+cd ..
+cp -R config /tmp/config-bak
+ls -ltr /tmp
+cd ~
+mv jerry kramer george seinfeld/
+find . -name "kreamer"
+locate "kreamer"
+find / -name kreamer
+touch susan
+find /home/kliment -name susan
+su -
+updatedb
+exit
+locate susan
+touch abcd1-xyz
+touch abcd2-xyz
+touch abcd3-xyz
+rm abc*
+touch abcd{1..9}-xyz
+ls -ltr
+ls -l ?bcd*
+ls -l *[cd]* #c or d in the name
+touch hulk
+ls
+cd /tmp/
+ln -s /home/kliment/hulk
+ls
+ls -ltr
+cd ~
+ls -ltr
+echo "hulk is a superhero" > hulk
+cd /tmp/
+cat hulk
+cd ~
+ls
+ls -li
+cd /tmp/
+ls -i
+rm /home/kliment/hulk
+ls -i
+cat hulk
+touch /home/kliment/hulk
+echo "Something is in this file" > /home/kliment/hulk
+clear
+ln hulk
+ls
+rm hulk
+ln /home/kliment/hulk
+ls
+cat hulk
+rm /home/kliment/hulk
+cat hulk
+ls /home/kliment/
+cd ~
+ls -l
+touch hulk
+echo "123" >> hulk
+cat hulk
+cd /tmp/
+cat hulk
+clear
+cd ~
+ls
+rm -r
+rm h
+rm hulk
+touch hulk
+echo "Hulk is superhero" >> hulk
+cat hulk
+cd /tmp/
+ls -s /home/kliment/hulk
+ls -i
+rm hulk
+ls -i
+ls -s /home/kliment/hulk
+ln -s /home/kliment/hulk
+ls -i
+cat hulk
+echo "Hulk is the best"  >> hulk
+cat hulk
+cat /home/kliment/hulk
+rm /home/kliment/hulk
+cat hulk
+touch /home/kliment/hulk
+echo "This is hard link" >> /home/kliment/hulk
+ln /home/kliment/hulk
+rm hulk
+ln /home/kliment/hulk
+ls
+cat hulk
+echo "This is added in the tmp file" >> ~/hulk
+cat hulk
+cat ~/hulk
+rm ~/hulk
+cat hulk
+history
+
+
+
+
+

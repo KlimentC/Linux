@@ -1,0 +1,5 @@
+diff superman-characters superman-characters2
+  479  cmp superman-characters superman-characters2
+  480  man diff
+  481  diff -q superman-characters superman-characters2
+

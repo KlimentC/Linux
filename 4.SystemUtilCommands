@@ -1,0 +1,21 @@
+clear
+  690  date
+  691  uptime
+  692  hostname
+  693  uname
+  694  uname -a
+  695  which
+  696  which pwd
+  697  which ls
+  698  which date
+  699  which passwd
+  700  grep --help
+  701  clear
+  702  grep --help
+  703  cal
+  704  cal 11 1995
+  705  cal 2016
+  706  clear
+  707  bc
+  708  history
+

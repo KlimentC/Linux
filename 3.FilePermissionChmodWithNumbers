@@ -1,0 +1,21 @@
+36  touch sam
+   37  ls -ltr
+   38  clear
+   39  chmod  764 sam 
+   40  ls -ltr
+   41  clear
+   42  ls -ltr sam 
+   43  chmod 000 sam
+   44  ls -ltr sam 
+   45  chmod 600 sam
+   46  ls -ltr sam 
+   47  chmod 604 sam
+   48  ls -ltr sam 
+   49  chmod 111 sam
+   50  ls -ltr sam 
+   51  cat sam 
+   52  chmod 511 sam
+   53  ls -ltr sam 
+   54  cat sam 
+   55  history
+

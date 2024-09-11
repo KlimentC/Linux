@@ -1,0 +1,14 @@
+cat superman-characters
+  542  cat superman-characters superman-characters2 > supermanAll
+  543  cat supermanAll 
+  544  cat supermanA | wc -l
+  545  cat supermanAll | wc -l
+  546  clear
+  547  split -l 2 supermanAll seperated
+  548  ls -ltr
+  549  cat seperatedaa
+  550  cat seperatedab
+  551  cat seperatedac
+  552  clear
+  553  history
+

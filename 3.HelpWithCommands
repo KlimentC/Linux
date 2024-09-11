@@ -1,0 +1,8 @@
+ sudo mandb
+  104  whatis pwd
+  105  whatis cd
+  106  whatis ls
+  107  ls --help
+  108  chmod --help
+  109  man ls
+

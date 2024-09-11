@@ -1,0 +1,6 @@
+truncate -s 200 seinfeld-characters 
+  528  ls -l seinfeld-characters 
+  529  cat seinfeld-characters 
+  530  truncate -s 150 seinfeld-characters 
+  531  cat seinfeld-characters 
+

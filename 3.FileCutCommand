@@ -1,0 +1,19 @@
+       cut -c1 seinfeld-characters 
+  240  cat seinfeld-characters 
+  241  cut -c1,3,5 seinfeld-characters 
+  242  cut -c1-5 seinfeld-characters 
+  243  cut -c1-8 seinfeld-characters 
+  244  cut -c1, 5-8 seinfeld-characters 
+  245  cut -c1,5-8 seinfeld-characters 
+  246  cut -c1,8-11 seinfeld-characters 
+  247  cat -b1-3 seinfeld-characters 
+  248  clear
+  249  cut -b1-3 seinfeld-characters 
+  250  cut -d: -f 6 seinfeld-characters
+  253  ls -ltr | cut -c2-4
+  254  cd ..
+  255  ls -ltr | cut -c2-4
+  257  ls -ltr
+  258  ls -ltr | cut -c1-4
+  259  history
+

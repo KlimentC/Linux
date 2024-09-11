@@ -1,0 +1,10 @@
+wall "This"
+  679  wall This is broadcasting message
+  680  wall
+  681  wall The system will shutdown in 60sec --Kliment
+  682  wall The system will shutdown in 60sec Kliment
+  683  write kliment
+  684  wrute kliment "This is test"
+  685  write kliment "This is test"
+  686  write kliment
+

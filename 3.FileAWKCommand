@@ -1,0 +1,34 @@
+awk '{print $1}' seinfeld-characters 
+  333  awk '{print $2}' seinfeld-characters 
+  334  awk '{print $2}' /etc/passwd
+  335  awk '{print $1}' /etc/passwd
+  336  awk '{print $2}' /etc/passwd
+  337  awk '{print $3}' /etc/passwd
+  338  awk '{print $4}' /etc/passwd
+  339  awk '{print $5}' /etc/passwd
+  340  awk '{print $5}' seinfeld-characters 
+  341  awk '{print $1}' seinfeld-characters 
+  342  awk '{print $2}' seinfeld-characters 
+  343  cd ..
+  344  ls -l
+  345  ls -l | awk `{print $1,$3}`
+  346  ls -l | awk '{print $1,$3}'
+  347  ls -l | awk '{print $1,$7}'
+  348  ls -l | awk '{print $1,$9}'
+  349  ls -l | awk '{print $9}'
+  350  ls -l | awk '{print $NF}'
+  351  awk '/Jerry/ {print}' seinfield/
+  352  awk '/Jerry/ {print}' seinfield
+  353  cd seinfield/
+  354  awk '/Jerry/ {print}' seinfeld-characters 
+  355  awk '/Se*/ {print}' seinfeld-characters 
+  356  awk '/Sei*/ {print}' seinfeld-characters 
+  357  awk -F: '{print $1}' /etc/passwd
+  358  awk '{print $1}' /etc/passwd
+  359  echo "Hello Tom"
+  360  echo "Hello Tom" | awk '{$2="Adam"; print $0}'
+  361  awk '{$2="Wade"; print $0}' seinfeld-characters 
+  362  awk 'lenght($0) >15' seinfeld-characters 
+  367  awk 'length($0) >11' seinfeld-characters 
+  368  history
+

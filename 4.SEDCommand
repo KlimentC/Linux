@@ -1,0 +1,41 @@
+i myfirstfile 
+  569  grep -i hello myfirstfile 
+  570  grep -i This myfirstfile 
+  571  grep -i o myfirstfile 
+  572  vi myfirstfile 
+  573  clear
+  574  ls -ltr
+  575  cd seinfield/
+  576  cat seinfeld-characters 
+  577  sed 's/Morty/ChangedMorty/g' seinfeld-characters
+  578  cat seinfeld-characters 
+  579  sed -i 's/Morty/ChangedMorty/g' seinfeld-characters
+  580  cat seinfeld-characters 
+  581  sed -i 's/Costanza//g' seinfeld-characters 
+  582  cat seinfeld-characters 
+  583  clear
+  584  sed '/Seinfeld/d' seinfeld-characters 
+  585  vi seinfeld-characters 
+  586  cat seinfeld-characters 
+  587  sed '/^$/d' seinfeld-characters 
+  588  sed '1d' seinfeld-characters 
+  589  sed '2d' seinfeld-characters 
+  590  cat seinfeld-characters 
+  591  sed '1,2d' seinfeld-characters 
+  592  sed '1..10d' seinfeld-characters 
+  593  vi  seinfeld-characters 
+  594  sed 's/\t/ /g' seinfeld-characters 
+  595  sed 's/\t/ThisIsSpace/g' seinfeld-characters 
+  596  cd seinfield/
+  597  sed 's/ /\t/g' seinfeld-characters 
+  598  sed -n 5,8p seinfeld-characters 
+  599  sed  5,8d seinfeld-characters 
+  600  sed G seinfeld-characters 
+  601  clear
+  602  vi seinfeld-characters 
+  603  sed '8!s/Seinfeld/S./g' seinfeld-characters 
+  604  cat seinfeld-characters 
+  605  sed '9!s/Seinfeld/S./g' seinfeld-characters 
+  606  vi seinfeld-characters 
+  607  ls
+  608  cat myfirstfile 

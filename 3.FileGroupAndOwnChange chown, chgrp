@@ -1,0 +1,10 @@
+      cd /home/
+    3  ls
+    4  cd kliment/
+    5  ls -ltr
+    6  chown root lisa
+    7  ls -ltr
+    8  chgrp root lisa
+    9  ls -ltr lisa 
+   10  exit
+   11  history

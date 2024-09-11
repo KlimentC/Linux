@@ -1,0 +1,13 @@
+echo "Something new" > jerry 
+  125  cat jerry 
+  126  echo "Something new for the jerry" >> jerry 
+  127  cat jerry 
+  128  touch listingofdir
+  129  echo ls -ltr >> listingofdir
+  130  cat listingofdir 
+  131  ls -ltr >> listingofdir
+  132  cat listingofdir 
+  133  ls -ltr
+  134  date >> jerry 
+  135  cat jerry 
+

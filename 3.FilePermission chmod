@@ -1,0 +1,29 @@
+    1  ls
+    2  touch jerry
+    3  ls
+    4  ls -l jerry 
+    5  man chmod
+    6  chmod g-w jerry
+    7  ls -l jerry 
+    8  chmod a-r jerry
+    9  ls -l jerry 
+   10  cat jerry 
+   11  chmod u-w jerry
+   12  ls -l jerry 
+   13  rm jerry 
+   14  cat jerry 
+   15  chmod u+rw jerry 
+   16  ls -l jerry 
+   17  chmod g+rw jerry 
+   18  ls -l jerry 
+   19  chmod o+r jerry
+   20  ls -l jerry 
+   21  mkdir seinfield
+   22  ls -ltr
+   23  chmod a-x seinfield/
+   24  ls -ltr seinfield/
+   25  ls -ltr
+   26  cd seinfield/
+   27  chmod a+x seinfield/
+   28  ls -ltr
+

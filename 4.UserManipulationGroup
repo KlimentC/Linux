@@ -1,0 +1,126 @@
+  40  groupadd superheros
+   41  cat /etc/groups
+   42  cat /etc/group
+   43  userdel -r spiderman
+   44  ls -ltr /home/
+   45  groupadd nonewgroup
+   46  cat /etc/group
+   47  groupdel nonewgroup
+   48  clear
+   49  man usermod
+   50  useradd spiderman
+   51  ls -ltr /home/
+   52  id spiderman 
+   53  usermod -g superheros spiderman
+   54  grep spiderman /etc/grpup
+   55  grep spiderman /etc/group
+   56  id spiderman
+   57  cat /etc/group
+   58  clear
+   59  ls -ltr /home/
+   60  cd /home/spiderman/
+   61  ls -ltr
+   62  cat /etc/passwd
+   63  cat etc/shadow
+   64  cat /etc/shadow
+   65  useradd -g superheros -s /bin/bash  -c "This is Ironman" -m -d /home/ironman ironman
+   66  cat /etc/passwd
+   67  passwd ironman 
+   68  history
+
+
+ useradd spiderman
+   35  id spiderman
+   36  cd /home/spiderman/
+   37  cd ..
+   38  ls
+   39  cd ~
+   40  groupadd superheros
+   41  cat /etc/groups
+   42  cat /etc/group
+   43  userdel -r spiderman
+   44  ls -ltr /home/
+   45  groupadd nonewgroup
+   46  cat /etc/group
+   47  groupdel nonewgroup
+   48  clear
+   49  man usermod
+   50  useradd spiderman
+   51  ls -ltr /home/
+   52  id spiderman
+   53  usermod -g superheros spiderman
+   54  grep spiderman /etc/grpup
+   55  grep spiderman /etc/group
+   56  id spiderman
+   57  cat /etc/group
+   58  clear
+   59  ls -ltr /home/
+   60  cd /home/spiderman/
+   61  ls -ltr
+   62  cat /etc/passwd
+   63  cat etc/shadow
+   64  cat /etc/shadow
+   65  useradd -g superheros -s /bin/bash  -c "This is Ironman" -m -d /home/ironman ironman
+   66  cat /etc/passwd
+   67  passwd ironman
+   68  history
+   69  vim 4.UserManipulationGroup /home/kliment/Desktop/
+   70  exit
+   71  cd /home/spiderman/
+   72  ls
+   73  cp 4.UserManipulationGroup /home/kliment/Desktop/
+   74  exit
+   75  useradd spiderman
+   76  id spiderman
+   77  cd /home/
+   78  ls
+   79  cd ..
+   80  cd ~
+   81  id superheros
+   82  groups
+   83  cat /etc/group
+   84  lid
+   85  userdel -r spiderman
+   86  userdel -r ironman
+   87  cat /etc/passwd
+   88  ls -ltr /home/
+   89  groupadd nonewgroup
+   90  cat /etc/group
+   91  groupdel nonewgroup
+   92  cat /etc/group
+   93  useradd spiderman
+   94  id spiderman
+   95  useradd -g spiderman
+   96  groupdel spiderman
+   97  useradd spiderman
+   98  id spiderman
+   99  ls -ltr /home/
+  100  cat /etc/group
+  101  usermod -g superheros spiderman
+  102  id spiderman
+  103  grep spiderman /etc/group
+  104  ls -ltr /home/
+  105  useradd hulk
+  106  id hulk
+  107  usermod -G superheros hulk
+  108  id hulk
+  109  grep hulk /etc/passwd
+  110  ls -ltr /home/
+  111  chgrp -R superheros hulk
+  112  chgrp -r superheros hulk
+  113  chgrp --help
+  114  chgrp -R superheros
+  115  chgrp -R superheros hulk
+  116  cd /home/
+  117  chgrp -R superheros hulk
+  118  ls -ltr
+  119  cat /etc/passwd
+  120  cat /etc/group
+  121  cat /etc/shadow
+  122  grep spiderman /etc/passwd
+  123  useradd -g superheros -s /bin/bash -c "This is Thor" -m -d /home/thor thor
+  124  id thor
+  125  cat /etc/passwd
+  126  passwd thor
+  127  history
+

@@ -1,0 +1,30 @@
+  40  groupadd superheros
+   41  cat /etc/groups
+   42  cat /etc/group
+   43  userdel -r spiderman
+   44  ls -ltr /home/
+   45  groupadd nonewgroup
+   46  cat /etc/group
+   47  groupdel nonewgroup
+   48  clear
+   49  man usermod
+   50  useradd spiderman
+   51  ls -ltr /home/
+   52  id spiderman 
+   53  usermod -g superheros spiderman
+   54  grep spiderman /etc/grpup
+   55  grep spiderman /etc/group
+   56  id spiderman
+   57  cat /etc/group
+   58  clear
+   59  ls -ltr /home/
+   60  cd /home/spiderman/
+   61  ls -ltr
+   62  cat /etc/passwd
+   63  cat etc/shadow
+   64  cat /etc/shadow
+   65  useradd -g superheros -s /bin/bash  -c "This is Ironman" -m -d /home/ironman ironman
+   66  cat /etc/passwd
+   67  passwd ironman 
+   68  history
+

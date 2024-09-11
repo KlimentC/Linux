@@ -1,0 +1,17 @@
+ systemctl
+  717  top
+  718  ps -aux
+  719  clear
+  720  which date
+  721  which systemctl
+  722  systemctl list-units
+  723  systemctl list-units -all
+  724  clear
+  725  systemctl  status firewalld.service
+  726  systemctl  stop firewalld.service
+  727  systemctl  status firewalld.service
+  728  systemctl  start firewalld.service
+  729  systemctl  status firewalld.service
+  730  systemctl list-units
+
+

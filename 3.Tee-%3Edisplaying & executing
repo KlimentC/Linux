@@ -1,0 +1,24 @@
+ls -ltr /root 2>errorfile
+  150  cat errorfile 
+  154  telnet localhost 2>> errorfile 
+  155  cat errorfile 
+  157  ls -ltr
+  158  echo "This is the end of the errorFile" | tee errorfile 
+  159  cat errorfile 
+  161  cat errorfile 
+  165  echo "This is the end of the errorFile" |  tee -a errorfile 
+  166  cat errorfile 
+  167  wc -c errorfile 
+  170  clear
+  171  ls -ltr
+  172  cat errorfile 
+  173  cat CountSome 
+  174  echo "This is bottom" >> errorfile 
+  175  cat errorfile 
+  176  echo "End of file" | tee -a errorfile 
+  177  cat errorfile 
+  178  wc -c errorfile 
+  179  wc -c errorfile | tee -a CountSome
+  180  cat CountSome 
+  181  tee --help
+

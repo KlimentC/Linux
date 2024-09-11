@@ -1,0 +1,26 @@
+tar cvf HomeKliment.tar .
+  491  ls
+  492  clear
+  493  ls -ltre
+  494  ls -ltr
+  495  mkdir tarDir
+  496  mv HomeKliment.tar tarDir/
+  497  ls -ltr
+  498  cd tarDir/
+  499  pwd
+  500  untar HomeKliment.tar 
+  501  tar xvf HomeKliment.tar 
+  502  ls
+  503  ls -ltr
+  504  pwd
+  505  cd ..
+  506  gzip klimentZip.tar
+  507  pwd
+  508  gzip HomeKliment.tar
+  509  ls
+  510  cd tarDir/
+  511  gzip HomeKliment.tar 
+  512  ls -ltr
+  513  gzip -d HomeKliment.tar.gz
+  514  history
+

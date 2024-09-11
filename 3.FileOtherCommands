@@ -1,0 +1,46 @@
+sort seinfeld-characters 
+  419  sort -r seinfeld-characters 
+  420  sort -k2 seinfeld-characters 
+  421  cd ..
+  422  ls -l
+  423  ls -ltr | sort 
+  424  ls -ll | sort 
+  425  ls -ll | sort -k9
+  426  cd seinfield/
+  427  vi seinfeld-characters 
+  428  uniq seinfeld-characters 
+  429  cat seinfeld-characters 
+  430  vi seinfeld-characters 
+  431  uniq seinfeld-characters 
+  432  sort seinfeld-characters | uniq 
+  433  sort seinfeld-characters | uniq -c
+  434  sort seinfeld-characters | uniq -d
+  435  cd ..
+  436  ls -l
+  437  ls -l | sort | uniq file*
+  438  ls -l | sort | uniq
+  439  pwd
+  440  cd seinfield/
+  441  wc seinfeld-characters 
+  442  wc -m seinfeld-characters 
+  443  wc -l seinfeld-characters 
+  444  wc seinfeld-characters 
+  445  ls -l
+  446  wc seinfeld-characters 
+  447  wc -l seinfeld-characters 
+  448  wc -b seinfeld-characters 
+  449  wc -w seinfeld-characters 
+  450  wc --help 
+  451  wc -c seinfeld-characters 
+  452  wc -w seinfeld-characters 
+  453  cd ..
+  454  ls -l | wc -l
+  455  wc -help
+  456  wc --help
+  457  clear
+  458  ls -ld
+  459  ls -l | grep d* | wc -l
+  460  pwd
+  461  ls
+  462  ls -l | grep drw | wc -l
+

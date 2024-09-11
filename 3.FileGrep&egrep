@@ -1,0 +1,40 @@
+grep Seinfeld seinfeld-characters 
+  378  cat seinfeld-characters 
+  379  grep kliment /etc/passwd
+  380  grep -c Seinfeld seinfeld-characters 
+  381  grep -i Seinfeld seinfeld-characters 
+  382  grep -i seinfeld seinfeld-characters 
+  383  grep seinfeld seinfeld-characters 
+  384  grep -i seinfeld seinfeld-characters 
+  385  history
+  386  pwd
+  387  cd Desktop/
+  388  ls -ltr
+  389  clear
+  390  ..
+  391  cd ..
+  392  cd seinfield/
+  393  grep -i seinfeld seinfeld-characters 
+  394  grep -c seinfeld seinfeld-characters 
+  395  grep -ic seinfeld seinfeld-characters 
+  396  grep -in seinfeld seinfeld-characters 
+  397  grep -v seinfeld seinfeld-characters 
+  398  grep -nv seinfeld seinfeld-characters 
+  399  clear
+  400  grep -nv seinfeld seinfeld-characters  | awk '{print $1}'
+  401  grep -nv seinfeld seinfeld-characters  | awk '{print $2}'
+  402  grep -nv seinfeld seinfeld-characters  | awk '{print $1}' | cut -c1-3
+  403  grep -v seinfeld seinfeld-characters  | awk '{print $1}' | cut -c1-3
+  404  ls -l | grep Desktop
+  405  cd .. 
+  406  ls -l | grep Desktop
+  407  ls -l | grep Desktop | awk '{print $NF}'
+  408  cd seinfield/
+  409  cat seinfeld-characters 
+  410  egrep Justin|Pitt
+  411  egrep -i "Justin|Pitt"
+  412  egrep -i "Justin|Pitt" seinfeld-characters 
+  413  egrep -i "Cosmo|Kreamer" seinfeld-characters 
+  414  egrep -i "Cosmo|Seinfeld" seinfeld-characters 
+  415  egrep -i "Cosmo|Seinfeld|Kramer" seinfeld-characters 
+

@@ -1,0 +1,40 @@
+ls -ltr | more
+  188  ls -l | tail -1 
+  189  cd ~
+  190  cd /etc | ls -l
+  191  cd /etc | ls -ltr | more
+  192  cd /etc | ls -ltr
+  193  history
+  194  clear
+  195  ls -ltr
+  196  man cp
+  197  touch george 
+  198  cp george david
+  199  ls -ltr
+  200  echo "david puddy" > david 
+  201  cat david 
+  202  cp david /home/david-bak
+  203  cp david /tmp
+  204  ls -ltr /tmp/
+  205  touch apoho
+  206  echo "apoho is in simson" > apoho 
+  207  cat apoho 
+  208  rm apoho 
+  209  ls -ltr
+  210  touch lex
+  211  mv lex luther
+  212  ls -ll luther 
+  213  echo "lex luther" > luther 
+  214  mv luther /tmp/lexLuther
+  215  ls /tmp/
+  216  ls -ltr /tmp/
+  217  ls
+  218  ls -ll
+  219  ls -ltr
+  220  ls -ll le
+  221  ls -ltr /etc/
+  222  ls -ltr /etc/ | less
+  223  ls -ltr /etc/ | more
+  224  ls -ltr /etc/ | head
+  225  ls -ltr /etc/ | tail
+

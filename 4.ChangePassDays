@@ -1,0 +1,15 @@
+ useradd babubutt
+  130  id babubutt
+  131  change grep babu /etc/shadow
+  132  grep babu /etc/shadow
+  133  change -m 2 -M 90 -W 10 -I 30 babubutt
+  134  chage -m 2 -M 90 -W 10 -I 30 babubutt
+  135  grep babu /etc/shadow
+  136  passwd babubutt
+  137  grep babu /etc/shadow
+  138  clear
+  139  exit
+  140  su - kliment
+  141  exit
+  142  history
+

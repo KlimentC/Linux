@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMENT="#This will shocase different bash excercises"
+COMMENT="#This will showcase different bash excercises"
 echo "Starting showcase"
 echo $COMMENT
 

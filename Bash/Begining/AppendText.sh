@@ -11,7 +11,7 @@ echo "Showcase of testing appending some text on a file"
 # with -f will check if it is a file
 if [ -f $file_name ]
     then
-        #with -w will check the permissons
+        #with -w will check the permissons on the file
         if [ -w $file_name ]
             then
                 echo "Type some text that will be append, when you are done press ctrl+d: "

@@ -3,7 +3,7 @@
 echo "Showcase of testing appending some text on a file"
 
 
-# -e to write in the same line
+# -e to write in the same line in the echo
  echo -e "Enter the name of the file: \c"
  read file_name
 

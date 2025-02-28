@@ -7,8 +7,11 @@ echo "Showcase of testing appending some text on a file"
  echo -e "Enter the name of the file: \c"
  read file_name
 
+
+# with -f will check if it is a file
 if [ -f $file_name ]
     then
+        #with -w will check the permissons
         if [ -w $file_name ]
             then
                 echo "Type some text that will be append, when you are done press ctrl+d: "

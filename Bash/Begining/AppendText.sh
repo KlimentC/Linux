@@ -2,6 +2,8 @@
 
 echo "Showcase of testing appending some text on a file"
 
+
+# -e to write in the same line
  echo -e "Enter the name of the file: \c"
  read file_name
 

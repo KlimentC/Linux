@@ -8,3 +8,8 @@ echo "${#os[@]}"
 unset os[2]
 echo "${os[2]}"
 echo "${#os[@]}"
+
+string=ThisIsAVariableThatHasSomeValue
+
+echo "${string[@]}"
+echo "${string[2]}"
